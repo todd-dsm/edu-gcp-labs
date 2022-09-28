@@ -123,7 +123,7 @@ That should be enough for now.
 [Domains Registrar]:https://domains.google.com/registrar/?hl=en-US
 [ZSH]:https://www.zsh.org/
 [Oh My Zsh]:https://ohmyz.sh/
-[something like this]:https://gist.github.com/todd-dsm/17f4f6af9a3fd838d47db3527724b732#file-environment-zsh-L95-L100
+[something like this]:https://gist.github.com/todd-dsm/17f4f6af9a3fd838d47db3527724b732#file-environment-zsh-L98-L99
 [Authentication at Google]:htps://cloud.google.com/docs/authentication/
 [Setting up OAuth 2.0]:https://support.google.com/cloud/answer/6158849
 [Terraform Authentication]:https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/provider_reference#primary-authentication
