@@ -22,8 +22,7 @@ plan:	## Run and Plan the build with output log
 		tee /tmp/tf-$(TF_VAR_project_id)-plan.out
 
 apply:	## Build Terraform project with output log
-	terraform apply --auto-approve -no-color \
-		-input=false "$(planFile)" 2>&1 | \
+	terraform apply --auto-approve -no-color 2>&1 | \
 		tee /tmp/tf-$(TF_VAR_project_id)-apply.out
 
 clean:	## Clean WARNING Message
