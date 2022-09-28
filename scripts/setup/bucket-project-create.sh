@@ -6,7 +6,7 @@
 # -----------------------------------------------------------------------------
 #    EXEC:  scripts/setup/bucket-project-create.sh
 # -----------------------------------------------------------------------------
-set -x
+#set -x
 
 ###----------------------------------------------------------------------------
 ### VARIABLES
@@ -28,7 +28,7 @@ function pMsg() {
 ###----------------------------------------------------------------------------
 printf '\n\n%s\n' "Creating a bucket for remote terraform state..."
 # Bucket name must be unique to all bucket names
-gsutil mb -p "$TF_VAR_project_id" "gs://${TF_VAR_state_bucket}"     # FIXME
+gsutil mb -p "$TF_VAR_project_id" "gs://${TF_VAR_state_bucket}"
 
 
 ###---
